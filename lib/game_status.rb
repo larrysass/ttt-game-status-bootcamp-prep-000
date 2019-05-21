@@ -98,7 +98,6 @@ def winner(board)
       return "X"
       elsif (position_1 == "O" && position_2 == "O" && position_3 == "O") 
       return "O"
-    else
     end
   end
   nil
