@@ -68,6 +68,8 @@ WIN_COMBINATIONS = [
 def draw?(board)
   if better_won(board) 
   return false
+else 
+  true
 end
 end
   
