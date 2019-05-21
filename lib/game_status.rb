@@ -84,9 +84,7 @@ end
 end
    
 def winner(board)
-  if !(better_won(board)   
-  return nil
-  else
+  
 WIN_COMBINATIONS.each do|win_combination|
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
@@ -101,8 +99,10 @@ WIN_COMBINATIONS.each do|win_combination|
         return "X"
       elsif (position_1 == "O" && position_2 == "O" && position_3 == "O")
         return "O"
+      else 
+        return nil
       end
+      
 end 
-end
 end 
   
