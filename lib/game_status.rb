@@ -84,9 +84,9 @@ end
 end
    
 def winner(board)
-if !(better_won(board)   
-  nil
-else 
+  if !(better_won(board)   
+  return nil
+  else
 WIN_COMBINATIONS.each do|win_combination|
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
