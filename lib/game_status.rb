@@ -64,8 +64,7 @@ WIN_COMBINATIONS = [
    board.none?{|spaces| spaces == " "}
   end 
   
-def draw?(board
-  )
+def draw?(board)
   
   def over?(board)
     if full?(board) || draw?(board) || won?(board)
