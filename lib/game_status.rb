@@ -84,7 +84,7 @@ end
 end
    
 def winner(board)
-if won?(board)[0] == "X"
+if (won?(board))[0] == "X"
   return "X"
 end
 end 
