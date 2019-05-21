@@ -84,10 +84,8 @@ end
 end
    
 def winner(board)
- if won?(board)
-   return win_combination
-  else 
-    nil
-  end
+if won?(board)[0] == "X"
+  return "X"
+end
 end 
   
