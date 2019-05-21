@@ -83,7 +83,8 @@ end
   end
 end
    
-def winner 
+def winner(board)
+  win?(board)
   
   
 end 
