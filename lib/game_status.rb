@@ -84,9 +84,7 @@ end
 end
    
 def winner(board)
-won?(board)
 
-return won?(board)[0]
 
 end 
   
