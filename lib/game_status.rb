@@ -101,6 +101,6 @@ def winner(board)
     else
     end
   end
-
+  nil
 end 
   
