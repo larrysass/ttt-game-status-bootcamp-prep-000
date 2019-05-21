@@ -74,7 +74,7 @@ end
 end
   
   def over?(board)
-    if full?(board) || draw?(board) || better_won(board)
+    if (full?(board) == true) || (draw?(board) == true) || (better_won(board) == true)
     true 
   else 
     false
