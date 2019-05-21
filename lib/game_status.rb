@@ -85,7 +85,7 @@ end
    
 def winner(board)
   
-WIN_COMBINATIONS.each do|win_combination|
+  WIN_COMBINATIONS.each do|win_combination|
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
@@ -103,6 +103,6 @@ WIN_COMBINATIONS.each do|win_combination|
         return nil
       end
       
-end 
+    end 
 end 
   
