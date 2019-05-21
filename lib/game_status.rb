@@ -88,5 +88,6 @@ def winner(board)
    return win_combination
   else 
     nil
+  end
 end 
   
