@@ -84,7 +84,9 @@ end
 end
    
 def winner(board)
-  win?(board)
+if !(better_won(board)   
+  nil
+else 
   
   
 end 
